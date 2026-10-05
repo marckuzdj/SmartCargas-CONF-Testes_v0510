@@ -947,7 +947,7 @@
 
 <script>
 
-window.console.log = function() {};
+// window.console.log = function() {};
   
 // --- LÓGICA DE NAVEGAÇÃO E CADASTRO ---
 
@@ -958,34 +958,36 @@ window.console.log = function() {};
 // =========================================================================
 const SCRIPTS_POR_UF = {
   // "AL": "https://script.google.com/macros/s/AKfycbz65nNpHm4sljQsY7FtgJlFYRLNl0L7hiWYKXufbKX1Mu1ldxJRLjEbsR4mqI79uO82mA/exec",
-   "AM": "https://script.google.com/macros/s/AKfycbzML6V5L5EheoY116lHau70HTd-uXNa_SjQiLIAkjKV5gqY_FwzQUEItMxDHV7-fo2D/exec",
-   "BA": "https://script.google.com/macros/s/AKfycbzgZNnUpmzceHLjl0A0KexRPEbRwTs_osMiKOzZxNjQNgM_jc94F3ny95uccH3w9kRr-g/exec",
-   "CE": "https://script.google.com/macros/s/AKfycby84jZNvN4IrJ07p8wAbAtmLkMKK1Fu5cYdh-iTk3rzr6T5vCXPthUitXrXpc-7Y1-3/exec",
-   "DF": "https://script.google.com/macros/s/AKfycbwtrn7Rqfz6vaYSTghxq78qSLlpkrcQpmKmSH7kQzpLZlts4PsNTk1JTsICzUCCJsbq/exec",
+  // "AM": "https://script.google.com/macros/s/AKfycbzML6V5L5EheoY116lHau70HTd-uXNa_SjQiLIAkjKV5gqY_FwzQUEItMxDHV7-fo2D/exec",
+  // "BA": "https://script.google.com/macros/s/AKfycbzgZNnUpmzceHLjl0A0KexRPEbRwTs_osMiKOzZxNjQNgM_jc94F3ny95uccH3w9kRr-g/exec",
+  // "CE": "https://script.google.com/macros/s/AKfycby84jZNvN4IrJ07p8wAbAtmLkMKK1Fu5cYdh-iTk3rzr6T5vCXPthUitXrXpc-7Y1-3/exec",
+  // "DF": "https://script.google.com/macros/s/AKfycbwtrn7Rqfz6vaYSTghxq78qSLlpkrcQpmKmSH7kQzpLZlts4PsNTk1JTsICzUCCJsbq/exec",
+	// 2
+  "DF": "https://script.google.com/macros/s/AKfycbxZtHjD2piOKg2OqfV7J6UToHYHUnSyl6Lza98WtiMrgb99ZWyYMUfGz3edsNQOvvXn/exec",
   // "ES": "",
   // "GO": "",
   // "MA": "",
   // "MT": "",
   // "MS": "",
-   "MG": "https://script.google.com/macros/s/AKfycbzbiEgg026B-Rj8d0njsgI-n9Lg3x0drezWzayRv6MMUT3aowlo2yQ4A7DBulnx9WcoXQ/exec",
+  // "MG": "https://script.google.com/macros/s/AKfycbzbiEgg026B-Rj8d0njsgI-n9Lg3x0drezWzayRv6MMUT3aowlo2yQ4A7DBulnx9WcoXQ/exec",
   // "PA": "",
   // "PB": "",
-   "PR": "https://script.google.com/macros/s/AKfycbz_VNwjmQ9hv3LkL5WHl2luVWZkrquNKPnPCXCyTXo4bYG8oSCTIqEtnCIIKt9fQtovrA/exec",
-   "PE": "https://script.google.com/macros/s/AKfycbyTKX7dTx8MvU4Qh6javYDxUfipriEBM-qThacTQDNV7QL-6CsIC2FOaqHA80KOcYg/exec",
+  // "PR": "https://script.google.com/macros/s/AKfycbz_VNwjmQ9hv3LkL5WHl2luVWZkrquNKPnPCXCyTXo4bYG8oSCTIqEtnCIIKt9fQtovrA/exec",
+  // "PE": "https://script.google.com/macros/s/AKfycbyTKX7dTx8MvU4Qh6javYDxUfipriEBM-qThacTQDNV7QL-6CsIC2FOaqHA80KOcYg/exec",
   // "PI": "",
-   "RJ": "https://script.google.com/macros/s/AKfycbwEvZj_QZdiFcoUJmd-1CNLTOJXe8vQ2eOmu85OhgXN_dES_s54sKHIPUFTtbvzVNclwg/exec",
+  // "RJ": "https://script.google.com/macros/s/AKfycbwEvZj_QZdiFcoUJmd-1CNLTOJXe8vQ2eOmu85OhgXN_dES_s54sKHIPUFTtbvzVNclwg/exec",
   // "RN": "",
  //1
-   "RS": "https://script.google.com/macros/s/AKfycbxHxI111jtkAxYeriRCmqfyoChC_D5nB68K9kbrKonv5FzIz5-0HZ3F85lkZhc7XFF0_Q/exec",
+  // "RS": "https://script.google.com/macros/s/AKfycbxHxI111jtkAxYeriRCmqfyoChC_D5nB68K9kbrKonv5FzIz5-0HZ3F85lkZhc7XFF0_Q/exec",
  //2 
-  // "RS": "https://script.google.com/macros/s/AKfycbyCe3Z1lYMPn8f0DsSXA4p8O5F_Z-rW8Wv2r7c-akCn35cbf2mkPke8-v4n7hweYRrO7g/exec",
+ "RS": "https://script.google.com/macros/s/AKfycbyCe3Z1lYMPn8f0DsSXA4p8O5F_Z-rW8Wv2r7c-akCn35cbf2mkPke8-v4n7hweYRrO7g/exec",
   // "RO": "",
-   "SC": "https://script.google.com/macros/s/AKfycbyImZzz4VRzXF-UT_LLf4c93CYoqs3ojNycYCXk4ORM0Dz3nDIVDASGZIfA4ni3dC8H/exec",
+  // "SC": "https://script.google.com/macros/s/AKfycbyImZzz4VRzXF-UT_LLf4c93CYoqs3ojNycYCXk4ORM0Dz3nDIVDASGZIfA4ni3dC8H/exec",
   // "SE": "",
   // 1 
-   "SP": "https://script.google.com/macros/s/AKfycbycGHAZN01Fb2i9KHs3s0YXo7qdB2FPqoBFWasWyzV9DKbhCWIOprsjTseRJ-4GkfZpOg/exec"
+  // "SP": "https://script.google.com/macros/s/AKfycbycGHAZN01Fb2i9KHs3s0YXo7qdB2FPqoBFWasWyzV9DKbhCWIOprsjTseRJ-4GkfZpOg/exec"
   // 2
-  // "SP": "https://script.google.com/macros/s/AKfycbwXF4h6lnxsGRtMHiExWYoLK6Mh4iASrcxDRKfy_lMADaquXARtczKD-EwqA0R0UzY/exec"
+   "SP": "https://script.google.com/macros/s/AKfycbwXF4h6lnxsGRtMHiExWYoLK6Mh4iASrcxDRKfy_lMADaquXARtczKD-EwqA0R0UzY/exec"
   // Adicione as demais UFs conforme criar as planilhas/scripts clonados...
 };
 
