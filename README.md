@@ -1,0 +1,1 @@
+# SmartCargas-CONF-Testes_v0510
